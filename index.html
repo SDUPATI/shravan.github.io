@@ -1,175 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Indian History: Multi-Agent Platform | Shravan Dupati</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    a {
-      color: #1e90ff;
-      text-decoration: none;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 30px;
-    }
-    table, th, td {
-      border: 1px solid #ccc;
-    }
-    th, td {
-      padding: 10px;
-      text-align: left;
-    }
-    code {
-      background-color: #eee;
-      padding: 2px 4px;
-      font-family: monospace;
-    }
-    .screenshot {
-      max-width: 100%;
-      height: auto;
-      border: 1px solid #ccc;
-      margin-top: 10px;
-    }
-    .section {
-      background: white;
-      padding: 20px;
-      border-radius: 8px;
-      margin-bottom: 40px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <title>Shravan Kumar Raju Dupati – Portfolio: Adaptive Learning System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        code {
+            background: #eee;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        th {
+            background-color: #eee;
+        }
+        a {
+            color: #007acc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+    <h1>Shravan Kumar Raju Dupati</h1>
+    <p>
+        <strong>GitHub Repository:</strong> 
+        <a href="https://github.com/Rivier-Computer-Science/Adaptive-Learning" target="_blank">
+            https://github.com/Rivier-Computer-Science/Adaptive-Learning
+        </a>
+    </p>
 
-  <div class="section">
-    <h1>Indian History: Multi-Agent Social Studies Platform</h1>
-    <p><strong>Author:</strong> Shravan Kumar Raju Dupati</p>
-    <p><a href="https://github.com/Rivier-Computer-Science/Adaptive-Learning/issues/362" target="_blank">GitHub Issue #362</a></p>
-  </div>
+    <h2>Portfolio Project: Adaptive Learning System – Multi-Language Support</h2>
 
-  <div class="section">
-    <h2>Project Summary & My Contributions</h2>
-    <p>This platform is designed to help students learn Indian history using a team of intelligent agents. The system includes six key agents that work together to deliver lessons, quizzes, feedback, and personalized learning paths. My primary contributions were:</p>
-    <ul>
-      <li>Developed the <strong>ProblemGenerator Agent</strong> to create dynamic quiz content.</li>
-      <li>Implemented parts of the <strong>AnswerVerifier Agent</strong> for response evaluation and feedback.</li>
-      <li>Contributed to <strong>multi-agent communication workflow</strong> design and debugging.</li>
-      <li>Helped with <strong>testing</strong> and <strong>curriculum content validation</strong>.</li>
-    </ul>
-  </div>
+    <p>
+        <strong>Project:</strong> Adaptive Learning System<br />
+        <strong>My Contribution:</strong> I worked on implementing dynamic language support in the Adaptive Learning System, enabling the platform to deliver educational content and feedback in multiple languages. My tasks included modifying FSM logic, refactoring agent message handling, ensuring translation consistency across agents, and adding fallback mechanisms. The supported languages now include Telugu, Hindi, and Spanish.
+    </p>
 
-  <div class="section">
     <h2>Project Overview</h2>
+    <p>
+        The Adaptive Learning System uses multiple agents to deliver personalized education. My focus was on Issue 
+        <a href="https://github.com/Rivier-Computer-Science/Adaptive-Learning/issues/382" target="_blank">
+        #382: Expanding Language Support
+        </a>. This involved enabling each agent—including the Tutor, Problem Generator, and Verifier—to deliver content in the student’s preferred language.
+    </p>
+
+    <h3>Sprint Objectives Summary</h3>
     <table>
-      <tr>
-        <th>Sprint Objective</th>
-        <th>Description</th>
-      </tr>
-      <tr>
-        <td>Sprint 1 – Curriculum Integration</td>
-        <td>Teacher Agent delivers structured lessons</td>
-      </tr>
-      <tr>
-        <td>Sprint 2 – Interactive Learning</td>
-        <td>Tutor Agent handles contextual Q&A</td>
-      </tr>
-      <tr>
-        <td>Sprint 3 – Adaptive Assessment</td>
-        <td>ProblemGenerator and AnswerVerifier agents implemented</td>
-      </tr>
-      <tr>
-        <td>Sprint 4 – Personalization</td>
-        <td>LevelAdapter and LearnerModel agents adjust content</td>
-      </tr>
-      <tr>
-        <td>Sprint 5 – Integration & Testing</td>
-        <td>Agents orchestrated, security added</td>
-      </tr>
-      <tr>
-        <td>Sprint 6 – Final Delivery</td>
-        <td>Final deployment, UI updates, and documentation</td>
-      </tr>
+        <tr>
+            <th>Task</th>
+            <th>Description</th>
+            <th>Estimated Time</th>
+        </tr>
+        <tr>
+            <td>Lang 1</td>
+            <td>Modified FSM and message handler to support multilingual interactions.</td>
+            <td>10 hours</td>
+        </tr>
+        <tr>
+            <td>Lang 2</td>
+            <td>Updated agents to load and use selected language modules dynamically.</td>
+            <td>12 hours</td>
+        </tr>
+        <tr>
+            <td>Lang 3</td>
+            <td>Persisted language preferences and added fallback logic for missing translations.</td>
+            <td>8 hours</td>
+        </tr>
+        <tr>
+            <td>Lang 4</td>
+            <td>Tested Telugu, Hindi, and Spanish. Optimized language switching performance.</td>
+            <td>10 hours</td>
+        </tr>
     </table>
-  </div>
 
-  <div class="section">
-    <h2>User Story / Task Summary</h2>
-    <table>
-      <tr>
-        <th>Task / Story</th>
-        <th>Completed By</th>
-        <th>Notes</th>
-      </tr>
-      <tr>
-        <td>Curriculum Content Integration</td>
-        <td>Team</td>
-        <td>I reviewed and tested lesson content</td>
-      </tr>
-      <tr>
-        <td>Interactive Q&A (Tutor Agent)</td>
-        <td>Teammate</td>
-        <td>Not my work, helped with test cases</td>
-      </tr>
-      <tr>
-        <td>Problem Generation Engine</td>
-        <td><strong>Me</strong></td>
-        <td>Created dynamic quizzes & timelines</td>
-      </tr>
-      <tr>
-        <td>Answer Verification</td>
-        <td><strong>Me</strong></td>
-        <td>Feedback logic and implementation</td>
-      </tr>
-      <tr>
-        <td>Agent Communication & Sync</td>
-        <td>Shared</td>
-        <td>Worked on orchestration and messaging</td>
-      </tr>
-      <tr>
-        <td>Progress Dashboard</td>
-        <td>Teammate</td>
-        <td>Reviewed wireframes</td>
-      </tr>
-    </table>
-  </div>
+    <h3>What I Did</h3>
+    <ul>
+        <li>Refactored <code>fsm_controller.py</code> to dynamically load language configurations per session.</li>
+        <li>Extended the message templates to include Hindi and Spanish alongside Telugu.</li>
+        <li>Created fallback logic: if a translation is missing, English is used by default without breaking the flow.</li>
+        <li>Wrote automated tests to validate message formatting and accuracy across languages.</li>
+        <li>Collaborated with the UI team to ensure language switching was reflected in real-time in the chat interface.</li>
+    </ul>
 
-  <div class="section">
-    <h2>My Code Contribution: ProblemGenerator</h2>
-    <p>Example JSON output for a quiz question:</p>
-    <pre><code>{
-  "question": "Place these events in chronological order: [Babur's invasion, Akbar's coronation, Aurangzeb's death]",
-  "type": "timeline",
-  "difficulty": "medium"
-}</code></pre>
-    <p>Code Repository: <a href="https://github.com/Rivier-Computer-Science/Adaptive-Learning" target="_blank">GitHub Repo</a></p>
-    <p>Path: <code>/agents/problem_generator/quiz_generator.py</code></p>
-  </div>
+    <h2>Sample Screenshots</h2>
+    <ul>
+        <li><a href="img1.png" target="_blank">Telugu interaction with Tutor Agent</a></li>
+        <li><a href="img2.png" target="_blank">Quiz in Spanish generated by Problem Generator</a></li>
+        <li><a href="img3.png" target="_blank">Language preference and fallback handling</a></li>
+    </ul>
 
-  <div class="section">
-    <h2>Example Screenshot</h2>
-    <p>Auto-generated timeline question and feedback from the AnswerVerifier:</p>
-    <img src="https://user-images.githubusercontent.com/sample-screenshot-path" alt="Sample Quiz Output" class="screenshot" />
-  </div>
+    <h2>Source Code & Commits</h2>
+    <ul>
+        <li><a href="https://github.com/Rivier-Computer-Science/Adaptive-Learning" target="_blank">Public Repository</a></li>
+        <li><a href="https://github.com/Rivier-Computer-Science/Adaptive-Learning/commits?author=SDUPATI" target="_blank">My Commits (GitHub ID: SDUPATI)</a></li>
+    </ul>
 
-  <div class="section">
     <h2>Appendix</h2>
     <ul>
-      <li><a href="https://github.com/Rivier-Computer-Science/Adaptive-Learning/issues/362" target="_blank">GitHub Issue – US33</a></li>
-      <li><a href="https://github.com/Rivier-Computer-Science/Adaptive-Learning/commits?author=SDUPATI" target="_blank">My GitHub Commits</a></li>
-      <li>Sprint Review Notes and User Stories: available upon request or in linked docs</li>
+        <li><a href="https://github.com/Rivier-Computer-Science/Adaptive-Learning/issues/382" target="_blank">Issue #382: Expanding Language Support</a></li>
     </ul>
-  </div>
-
 </body>
 </html>
